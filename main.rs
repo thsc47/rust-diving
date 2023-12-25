@@ -1,4 +1,4 @@
 fn main() {
-    let integer:u8 = 128;
-    println!("variavel = {}", integer);
-} 
+    let idade:u8 = 29;
+    let condicao = if idade > 18 {"Maior"} else {"Menor"};
+}
